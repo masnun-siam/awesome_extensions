@@ -16,7 +16,7 @@ extension StringExtension on String {
   }
 
   /// Remove all whitespace inside string
-  /// Example: your name => yourname
+  /// Example: Your Name => YourName
   String removeAllWhitespace() {
     return replaceAll(' ', '');
   }
@@ -33,7 +33,7 @@ extension StringExtension on String {
   bool isAlphabetOnly() => hasMatch(r'^[a-zA-Z]+$');
 
   /// Checks if string contains at least one Capital Letter
-  bool hasCapitalletter() => hasMatch(r'[A-Z]');
+  bool hasCapitalLetter() => hasMatch(r'[A-Z]');
 
   /// Checks if string is boolean.
   bool isBool() {

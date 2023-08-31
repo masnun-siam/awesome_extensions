@@ -8,6 +8,7 @@ extension GestureDetectorExtensions on Widget {
 
   Widget onTap(Function() function) => GestureDetector(
         onTap: function,
+        behavior: HitTestBehavior.translucent,
         child: this,
       );
 
